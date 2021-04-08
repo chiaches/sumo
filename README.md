@@ -1,6 +1,6 @@
 # SUMO
 
-## Push-for-full queue algorithm for changelane  
+## sequential coordination algorithm for changelane  
 
 * When T_PUSH=20 seconds → generate vehicles every 30 seconds.  
 * When T_PUSH=30 seconds → generate vehicles every 40 seconds.  
