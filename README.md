@@ -2,8 +2,7 @@
 
 ## Sequential coordination algorithm for changelane  
 
-* 
-* 
+
   
   
 
