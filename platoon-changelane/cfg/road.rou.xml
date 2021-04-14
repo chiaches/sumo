@@ -1,0 +1,28 @@
+<routes>
+	<vType id="lane1" accel="5.0" decel="8" sigma="0.5" length="5"
+		   minGap="5" maxSpeed="120" color="1,0,0" probability="1"
+		   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
+		   lanesCount="4" ccAccel="5" ploegKp="0.2" ploegKd="0.7"
+		   ploegH="0.5" />
+	<vType id="lane2" accel="5.0" decel="8" sigma="0.5" length="5"
+	   minGap="5" maxSpeed="120" color="1,0,0" probability="1"
+	   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
+	   lanesCount="4" ccAccel="5" ploegKp="0.2" ploegKd="0.7"
+	   ploegH="0.5" />
+	<vType id="lane3" accel="5.0" decel="8" sigma="0.5" length="5"
+	   minGap="0" maxSpeed="120" color="1,0,0" probability="1"
+	   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
+	   lanesCount="4" ccAccel="5" ploegKp="0.2" ploegKd="0.7"
+	   ploegH="0.5" />
+	<vType id="lane4" accel="5.0" decel="8" sigma="0.5" length="5"
+	   minGap="0" maxSpeed="120" color="1,0,0" probability="1"
+	   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
+	   lanesCount="4" ccAccel="5" ploegKp="0.2" ploegKd="0.7"
+	   ploegH="0.5" />
+	<vType id="accident" accel="3.0" decel="4.5" sigma="0.5" length="5"
+		   minGap="0" maxSpeed="120" color="0.16,0.33,0.42" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" departSpeed="max"
+		   carFollowModel="IDM" />
+
+	<route id="platoon_route" edges="edge_0_0 edge_0_1 edge_0_2 edge_0_3 edge_1_0 edge_1_1 edge_1_2 edge_1_3 edge_2_0 edge_2_1 edge_2_2 edge_2_3 edge_3_0 edge_3_1 edge_3_2 edge_3_3 edge_4_0 edge_4_1 edge_4_4 edge_4_6 absorption_4"/>
+</routes>
